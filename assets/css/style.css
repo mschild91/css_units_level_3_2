@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto/Roboto-Regular.ttf);
+    font-weight: regular;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+}
+
+main {
+    background-image: url(../img/auch\ nich\ besser\ als\ das\ vorgeschlagene\ Design.avif);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.daily {
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: italic;
+    text-align: center;
+    color: #565c73;
+}
+
+.daily span {
+    background-color: #CDD4DE;
+}
+
+h1 {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 10.3125rem;
+    color: #CDD4DE;
+    opacity: 0.6;
+    padding-top: 25vh;
+}
+
+.not_found {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 2.125rem;
+    color: #cdd4de82;
+    padding-top: 2.5vh;
+}
+
+h3{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 0.875rem;
+    color: #cdd4de82;
+    font-weight: 100;
+    padding-top: 1.5vh;
+}
+
+a {
+    font-family: Roboto;
+    text-align: center;
+    display: inline-block;
+    font-size: 0.75rem;
+    color: #cdd4de41;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid #cdd4de41;
+    margin-left: 46.5vw;
+    margin-top: 20vh;
+    padding: 0.625rem;
+    line-height: 0.875rem;
+    border-radius: 0.3125rem;
+}
