@@ -22,8 +22,9 @@ body {
 }
 
 main {
-    background-image: url(../img/auch\ nich\ besser\ als\ das\ vorgeschlagene\ Design.avif);
+    background-image: url(../img/nebeliger_wald.jpg);
     background-size: cover;
+    background-position: center;
     width: 100vw;
     height: 100vh;
 }
@@ -70,16 +71,18 @@ h3{
 a {
     font-family: Roboto;
     text-align: center;
-    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 0.75rem;
     color: #cdd4de41;
     font-weight: 100;
     text-transform: uppercase;
     text-decoration: none;
     border: solid #cdd4de41;
-    margin-left: 46.5vw;
     margin-top: 20vh;
     padding: 0.625rem;
     line-height: 0.875rem;
     border-radius: 0.3125rem;
+    width: 9.375rem;
 }
